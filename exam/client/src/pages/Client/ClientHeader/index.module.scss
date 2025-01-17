@@ -1,0 +1,61 @@
+header {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    //   box-shadow: rgba(0, 0, 0, 0.35) 0px 2px;
+    .firstDiv {
+      margin-top: 10px;
+      .shop {
+        color: red;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 23px;
+        font-family: "Poppins", serif;
+      }
+      .colo {
+        color: rgb(30, 30, 39);
+        font-family: "Poppins", serif;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 23px;
+      }
+    }
+    .secondDiv {
+      nav {
+        ul {
+          display: flex;
+          gap: 3rem;
+          li {
+            a {
+              text-decoration: none;
+              color: black;
+              list-style-type: none;
+              color: rgb(30, 30, 39);
+              font-family: "Poppins", serif;
+              font-weight: 500;
+              font-size: 13px;
+              line-height: 23px;
+              transition: 0.6s;
+              &:hover {
+                color: rgba(30, 30, 39, 0.295);
+              }
+            }
+          }
+        }
+      }
+    }
+    .thirdDiv {
+      margin-top: 5px;
+      display: flex;
+      gap: 1rem;
+      button {
+        width: 60px;
+        height: 40px;
+        background-color: transparent;
+
+        border: none;
+      }
+    }
+  }
+}

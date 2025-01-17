@@ -1,0 +1,41 @@
+.card {
+    height: 400px;
+    width: 250px;
+    border: 1px solid black;
+  }
+  .allDiv {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+  }
+  .ascDescSearch {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    gap: 1rem;
+  }
+  .title {
+    font-weight: 500;
+    size: 14px;
+    font-style: normal;
+    color: rgb(30, 30, 39);
+    line-height: 20px;
+    text-decoration: none;
+    transform: none;
+    font-family: Poppins;
+    letter-spacing: 0;
+  }
+  .price{
+      font-weight: 600;
+  font-size: 14px;
+  font-style: normal;
+  color: rgb(254, 76, 80);
+  line-height: 23px;
+  text-decoration: none;
+  transform: none;
+  font-family: Poppins;
+  letter-spacing: 0;
+  }
+  
+  
